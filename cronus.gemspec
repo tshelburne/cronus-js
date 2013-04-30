@@ -7,12 +7,12 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 1.2") if s.respond_to? :required_rubygems_version=
   s.authors = ["Tim Shelburne"]
   s.date = "2013-04-29"
-  s.description = ""
+  s.description = "javascript signals engine (inspired by Robert Penner's actionscript library Signals)"
   s.email = "shelburt02@gmail.com"
   s.executables = ["cronus.js"]
   s.extra_rdoc_files = ["CHANGELOG", "LICENSE", "README.rdoc", "bin/cronus.js", "lib/cronus.rb", "lib/cronus/symbols.rb"]
   s.files = ["CHANGELOG", "Gemfile", "Gemfile.lock", "LICENSE", "Manifest", "README.rdoc", "Rakefile", "assets/scripts/coffee/cronus/multi_signal_relay.coffee", "assets/scripts/coffee/cronus/signal.coffee", "assets/scripts/coffee/cronus/signal_relay.coffee", "bin/cronus.js", "config/assets.rb", "cronus.gemspec", "lib/cronus.rb", "lib/cronus/symbols.rb", "spec/jasmine.yml", "spec/runner.html", "spec/support/classes.coffee", "spec/support/helpers.coffee", "spec/support/mocks.coffee", "spec/support/objects.coffee", "spec/support/requirements.coffee", "spec/tests/multisignal_relay_spec.coffee", "spec/tests/signal_relay_spec.coffee", "spec/tests/signal_spec.coffee"]
-  s.homepage = "https://github.com/tshelburne/GITHUB_NAME"
+  s.homepage = "https://github.com/tshelburne/cronus-js"
   s.rdoc_options = ["--line-numbers", "--inline-source", "--title", "Cronus", "--main", "README.rdoc"]
   s.require_paths = ["lib"]
   s.rubyforge_project = "cronus"

@@ -6,7 +6,7 @@ require 'echoe'
 Echoe.new("cronus") do |p|
   p.author = "Tim Shelburne"
   p.email = "shelburt02@gmail.com"
-  p.url = "https://github.com/tshelburne/GITHUB_NAME"
+  p.url = "https://github.com/tshelburne/cronus-js"
 
   p.ignore_pattern = FileList[".gitignore"]
   p.development_dependencies = [ "jasmine", "jasmine-headless-webkit" ]
