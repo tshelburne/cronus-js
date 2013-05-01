@@ -7,7 +7,7 @@ module Cronus
 	end
 	
 	def self.keystone_compiler
-		@@keystone_compiler ||= @@pipeline.compiler("cronus.js")
+		@@keystone_compiler ||= pipeline.compiler("cronus.js")
 	end
 
 	def self.root_path
